@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.a3x3conect.welhamboys.TeacherDash">
+
+    <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnCount="2"
+        android:background="#eddbbb"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:rowCount="14"
+        android:scrollbars="vertical">
+
+        <Button
+            android:id="@+id/atendance"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_row="1"
+            android:background="@drawable/attendance"
+            android:drawablePadding="-15sp"
+            android:paddingTop="80dp"
+            android:text="Attendance"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/planner"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_column="1"
+
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_row="1"
+            android:background="@drawable/planner"
+            android:drawablePadding="-15sp"
+            android:paddingTop="80dp"
+            android:text="Planner"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/teacher"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_row="7"
+            android:background="@drawable/teacher"
+            android:drawablePadding="-15sp"
+            android:paddingTop="80dp"
+            android:text="Teacher"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/library"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_column="1"
+
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_row="7"
+            android:background="@drawable/lib"
+            android:drawablePadding="-15sp"
+            android:paddingTop="80dp"
+            android:text="Library"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/users"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_row="8"
+            android:background="@drawable/user"
+            android:drawablePadding="-15sp"
+            android:paddingTop="80dp"
+            android:text="Users"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/courses"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_column="1"
+
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_row="8"
+            android:background="@drawable/course"
+            android:drawablePadding="-15sp"
+            android:paddingTop="80dp"
+            android:text="Courses"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/survey"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_row="9"
+            android:background="@drawable/survey"
+            android:drawablePadding="-15sp"
+            android:paddingTop="80dp"
+            android:text="SURVEY"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/transport"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_column="1"
+
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_row="9"
+            android:background="@drawable/trans"
+            android:drawablePadding="-15sp"
+            android:paddingTop="80dp"
+            android:text="Transport"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_row="10"
+            android:background="@drawable/logout"
+            android:drawablePadding="-15sp"
+            android:paddingTop="80dp"
+            android:text="LOG OUT"
+            android:textColor="#FFFFFF" />
+
+    </GridLayout>
+</ScrollView>

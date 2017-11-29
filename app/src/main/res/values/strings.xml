@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Welhamboys</string>
+    <string name="title_activity_transport">Transport</string>
+    <string name="title_activity_maps">Transport</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c8c8c8"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight= "5dp"
+    android:paddingTop="5dp"
+    tools:context="com.a3x3conect.welhamboys.Attendance">
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:mtf_image="@drawable/atndncsmal"
+        >
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search By Name/Roll Group"
+            android:textColor="#0078d7"
+            android:textColorHint="#0078d7"
+            android:textSize="16dp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fishPriceList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_weight="1"
+        android:paddingTop="5dp" />
+
+</RelativeLayout>

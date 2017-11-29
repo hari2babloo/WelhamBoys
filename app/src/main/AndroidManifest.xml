@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="a3x3conect.com.mycampus365">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.a3x3conect.welhamboys.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.a3x3conect.welhamboys.Sample" />
+        <activity android:name="com.a3x3conect.welhamboys.Modules.Getlocation" />
+        <activity android:name="com.a3x3conect.welhamboys.sample2" />
+        <activity android:name="com.a3x3conect.welhamboys.Attendance" />
+        <activity android:name="com.a3x3conect.welhamboys.Librar" />
+        <activity android:name="com.a3x3conect.welhamboys.Dashpage" />
+        <activity android:name="com.a3x3conect.welhamboys.Planner">
+
+
+        </activity>
+        <activity android:name="com.a3x3conect.welhamboys.Teacher" />
+        <activity android:name="com.a3x3conect.welhamboys.Users" >
+
+        </activity>
+        <activity android:name="com.a3x3conect.welhamboys.Courses" />
+        <activity android:name="com.a3x3conect.welhamboys.student"></activity>
+        <activity android:name="com.a3x3conect.welhamboys.SMS" />
+        <activity android:name="com.a3x3conect.welhamboys.multiselecttest" />
+        <activity android:name="com.a3x3conect.welhamboys.Sendsms" />
+        <activity android:name="com.a3x3conect.welhamboys.Survey" />
+        <activity android:name="com.a3x3conect.welhamboys.Transport" />
+        <activity android:name="com.a3x3conect.welhamboys.StudentDash" />
+        <activity android:name="com.a3x3conect.welhamboys.TeacherDash" />
+        <activity android:name="com.a3x3conect.welhamboys.ParentDash" />
+        <activity android:name="com.a3x3conect.welhamboys.SupportStaffDash" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.a3x3conect.welhamboys.MapsActivity"
+            android:label="@string/title_activity_maps">
+
+        </activity>
+        <activity android:name="com.a3x3conect.welhamboys.Distancecalc"></activity>
+    </application>
+
+</manifest>
